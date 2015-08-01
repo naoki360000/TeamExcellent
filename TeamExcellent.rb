@@ -34,7 +34,7 @@ module TeamExcellent
        #    p row 
        #    puts row[0] # 一番目の要素にアクセス 
        #    puts row.field("Name")  # ヘッダー名で要素にアクセス 
-           puts row.field("Name")  + "\t" + row.field("Subject") + "\t"   + row.field("Result")  \ 
+           puts row.field("Name")  + "\t" + row.field("Subject") + "\t"   + row.field("Result") 
              + "\t" + evaluate(row.field("Result").to_i ) 
  
  
